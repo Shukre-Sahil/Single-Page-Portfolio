@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SinglePage Portfolio</title>
+
+  <!--Bootstrap-->  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+
+<!--Bootstrap icons-->  
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+
+<style>
+  .abc{display:flex;
+  flex-direction: row; justify-content:space-evenly;}
+  .card{border:1px solid black; box-shadow: 5px 5px 10px black;}
+  .card:hover{background-color:#0A1828; color:#BFA181; transition: background-color 0.8s;}
+  i:hover{cursor: pointer;}
+ 
+  .breadcrumb-item + .breadcrumb-item::before{
+  content:'>>' ;color:blue;}
+
+
+
+</style>
+
+</head>
+<body style="background-color:#FBE9D0 ; color:black; font-family:font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+  <header >
+    <nav class="navbar navbar-expand-lg navber-light" style="background-color:#0A1828;">
+      <div class="container-fluid">
+        <a href="#" style="text-decoration:none; color:#BFA181; margin-left:200px;"><h1 class="display-5 "><b>My Portfolio</b></h1></a>
+        <nav class="nav justify-content-center active text breadcrumb">
+          <a href="#" class="nav-items nav-link breadcrumb-item " style="background-color: #0A1828; color:#BFA181;">Home</a>
+          <a href="#" class="nav-items nav-link breadcrumb-item " style="background-color: #0A1828; color:#BFA181;">About</a>
+          <a href="#" class="nav-items nav-link breadcrumb-item" style="background-color: #0A1828; color:#BFA181;">Services</a>
+          <a href="#" class="nav-items nav-link breadcrumb-item" style="background-color: #0A1828; color:#BFA181;">Portfolio</a>
+          <a href="#" class="nav-items nav-link breadcrumb-item" style="background-color: #0A1828; color:#BFA181;">Achievements</a>
+          <a href="#" class="nav-items nav-link breadcrumb-item" style="background-color: #0A1828; color:#BFA181;">Contact</a>
+          <i class="bi  bi-list" ></i>
+        </nav>
+      </div>
+    </nav>
+  </header>
+
+<main>
+  <section class="container m-5">
+    <h6 class="display-6"><b>Hello Folks!</b></h6>
+    <div class="row">
+      <!-- home text -->
+      <div class="col-md-7">
+        <p class="text-black-50 ">Its me Sahil!</p>
+        <p class="text-black-100">Welcome to my portfolio!</p>
+        <p class="text-black"> It's such a pleasure to have you here and an honour to introduce my work to you, so thank you for reading! </p>
+        <p>I've spent the last seven years, throughout high school and university and my own freelance career, creating various pieces of work and building up my portfolio to where it is today; updating my display of projects as my skills have grown and developed. I hope you enjoy it!</p>
+        <p>As I introduce my portfolio and you explore it for yourself if you want to, you'll notice that I've worked with a lot of design mediums, exploring both print and web projects, and working in areas from branding to user interfaces to advertising and even more. I love how design can be used in so many different formats and mediums to portray similar content in various ways in order to provide a unique user experience, and I'm super interested in the way that print and web can work together in cool ways, so I'm always flicking between them and intertwining them together!</p>
+        <p>Within my portfolio I also include work that has been created for various purposes, whether it be from university projects, commissioned freelance work, volunteer design or personal pieces of work, so you'll see lots of different types of work!</p>
+        
+      </div> 
+
+      <!-- profile image -->
+      <div class="col-md-5">
+        <div class="container"><a href="https://www.linkedin.com/in/sahil-shukre-269961281/">
+          <img src="user-profile-icon-front-side-with-white-background.jpg" class="d-block w-100" id="img1" style="border:2px solid #0A1828; border-radius:280px; box-shadow:4px 4px 8px black"> </a>
+        </div>
+      </div>
+
+    </div>
+ 
+    <button class="btn btn-outline-primary " onclick="alert('Downloading in progress !!')">Download CV</button>
+    <br>
+  </section>
+
+  <section style="background-color: #0A1828; color:#BFA181;"><br>
+    <div class="container" >
+      <h6 class="display-6 text-center"><b>About Me</b></h6><hr>
+      <p class="text-50 " style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> Thanks for your interest, here is a quick story of me and this website.</p>
+        <p class="">Sahil, an IIT Bombay alumnus and founder of an organisation. He loves to solve programming problems in most efficient ways. Apart from this organisation, he has also worked with another software development company as an software engineer.</p>
+        <p>I do my work mainly in C-Language, C++ and JAVA. C++ and Data Structure and Algorithm are my stronger section. Besides these I know Web Development, LINUX and database as well.</p>
+        <p>This website is basically one of my Web Development project which is built using HTML5, CSS and Bootstrap . Here one can also find ideas for projects in different languages.</p><p> Thanks again for reading this!</p>
+
+        <button class="btn btn-outline-secondary" onclick="alert('Resume has been downloaded on your device')">Check my Resume</button>
+    </div> <br>
+    </section>
+
+    <section class="container">
+
+      <div class="container"><br>
+        <div class="xyz"><h5 class="display-6 text-center"><b>Services</b></h5></div><hr><br>
+        <div class="abc">
+          <div class="card" style="width:300px;">
+            <i class="bi bi-code-slash" style="text-align: center; margin-top:14px;"></i>
+                <div class="card-body text-center">
+                  <h6 class="card-title">Web Development</h6>
+                  <p class="card-text">Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.</p>
+                  <button class="btn btn-outline-success" onclick="alert('Your request will be answered shortly')">Request</button>
+                </div>
+          </div>
+        
+      
+
+      
+          <div class="card" style="width:300px;">
+            <i class="bi bi-android" style="text-align: center; margin-top:14px;"></i>
+            <div class="card-body text-center">
+              <h6 class="card-title">App Development</h6>
+              <p class="card-text">App development refers to the creating, building, and maintaining of apps. It is used for touchscreen mobile devices such as smartphones and tablets. </p>
+              <button class="btn btn-outline-success" onclick="alert('Your request will be answered shortly')">Request</button>
+            </div>
+          </div>
+        
+
+      
+          <div class="card" style="width:300px;">
+            <i class="bi bi-filetype-py" style="text-align: center; margin-top:14px;"></i>
+            <div class="card-body text-center">
+              <h6 class="card-title">Python</h6>
+              <p class="card-text">Python is used in various fields like web development, data science, artificial intelligence, and automation, making it a versatile tool for professionals and learners alike.</p>
+              <button class="btn btn-outline-success" onclick="alert('Your request will be answered shortly')">Request</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<br><br>
+
+    <section style="background-color: #0A1828; color:#BFA181;">
+      <div class="container" style="padding-top:20px;">
+        <h5 class="display-6 text-center"><b>My Portfolio</b></h5>
+        <hr>
+        <div class="container text-center" style="justify-content: space-between;">
+          <button class="btn btn-outline-primary">Web Dev</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="btn btn-outline-primary">App Dev</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="btn btn-outline-primary">Python</button>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="abc">
+          <div class="card" style="width:300px;">
+            <img src="images (2).jfif" class="card-img-top" >
+                <div class="card-body text-center">
+                  <h6 class="card-title">Project 1</h6>
+                  <p class="card-text">Web Dev</p>
+                  <button class="btn btn-outline-success" onclick="alert('Project1 is loading!')">Get Access</button>
+                </div>
+          </div>
+      
+          <div class="card" style="width:300px;">
+            <img src="images.jfif" class="card-img-top" >
+            <div class="card-body text-center">
+              <h6 class="card-title">Project 2</h6>
+              <p class="card-text"> Guess the Number using Python</p>
+              <button class="btn btn-outline-success" onclick="alert('Project2 is loading!')">Get Access</button>
+            </div>
+          </div>
+
+          <div class="card" style="width:300px;">
+            <img src="images3.png" class="card-img-top" >
+            <div class="card-body text-center">
+              <h6 class="card-title">Project 3</h6>
+              <p class="card-text">Android Devlopment</p>
+              <button class="btn btn-outline-success" onclick="alert('Project3 is loading!')">Get Access</button>
+            </div>
+          </div>
+      
+          <div class="card" style="width:300px;">
+            <img src="fff.png" class="card-img-top" >
+            <div class="card-body text-center">
+              <h6 class="card-title">Project 4</h6>
+              <p class="card-text">Calculator using Python</p>
+              <button class="btn btn-outline-success" onclick="alert('Project4 is loading!')">Get Access</button>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div style="font-size:18px;">
+        <h5 class="display-6 text-center"><b>My Achievements</b></h5><hr>
+        <ul>
+          <li><b>Intern at L&T</b></li>
+          <ul>
+            <li>January 2024 - March 2024</li>
+            <li>Written technical reports for related firms</li>
+          </ul>
+          <li><b>Microsoft Learn Student Ambassador </b></li>
+          <ul>
+            <li>June 2024 - present</li>
+          </ul>
+          
+            <li><b>Intern at 1Stop</b></li>
+            <ul><li>October 2024 - Present</li></ul>
+          
+        </ul>
+        </div>
+
+      </div>
+      <br>
+      
+        </div>
+      </div>
+    </section>
+<br><br>
+    <section style="color: #0A1828; font-family:Verdana, Geneva, Tahoma, sans-serif; ">
+      <div class="abc" style="margin-left:50px;">
+        <div class="container">
+            <h3 class="text-center"><i><span style="font-weight:bolder;"><hr>Let's Work Together..!<hr></span></i></h3>
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;">With a commitment to quality and a focus on innovation, I aim to deliver work that not only meets expectations but exceeds them. <br> Let's transform ideas into impactful results, together."</p>
+            <p>You can also reach me at:
+              <ul>
+                <li>  <i class="bi bi-instagram"></i> Instagram  </li> 
+                <li>  <i class="bi bi-facebook"></i> Facebook  </li>
+                <li>  <i class="bi bi-twitter"></i> Twitter </li>
+                <li> <i class="bi bi-whatsapp"></i> WhatsApp </li>
+                <li> <i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/sahil-shukre-269961281/" style="text-decoration:none; color:black;"> LinkedIn </a></li>
+              </ul>
+            </p>
+
+          </div>
+
+          <div class="container" >
+              <div class="container">
+                <div class="card" style="width:400px; padding:20px; background-color: #0A1828; color:#BFA181;">
+          
+                  <div class="card-header" >
+                    <h3 >Send me a message</h3>
+                  </div>
+          
+                  <div class="card-body" >
+              <form >
+
+                <div class="mb-3">        
+                  <label class="form-label"></label>
+                  <input type="name" class="form-control" id="name" placeholder="Your Name" required> 
+                  </div>
+
+                <div class="mb-3">        
+                  <textarea type="message" class="form-control" id="message" placeholder="Write a message" required></textarea>
+                </div>
+          
+                <div class="mb-3">      
+                  <input type="email" class="form-control" id="email" placeholder="Enter Email ID" required> 
+                </div>
+                      
+                  <div class="mb-3">       
+                    <input type="checkbox" class="form-check-input" id="remember_me"> Information provided by me is True to my knowledge. 
+                  </div>
+          
+                    <div class="d-grid gap-2">
+                      <button type="submit" class="btn btn-outline-success" onclick="alert('Your message is successfully sent!')">Send</button>
+                    </div>
+                 </div>
+                </div>
+              </form>
+              </div>
+          </div>
+      </div>
+    </section>
+<br><br>
+    <footer style="background-color: black; color:#BFA181;height:40px;">
+        <div class="container text-center"  style="padding-top:10px;">
+         | &nbsp;&nbsp;&nbsp;&nbsp; Privacy policy <i class="bi bi-shield-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;|
+         &nbsp;&nbsp;&nbsp;&nbsp; Copywrite <i class="bi bi-c-circle"></i> 2024 &nbsp;&nbsp;&nbsp;&nbsp; | 
+         &nbsp;&nbsp;&nbsp;&nbsp;Contact : +91-9876543210 &nbsp;&nbsp;&nbsp;&nbsp;|
+         &nbsp;&nbsp;&nbsp;&nbsp; Email <i class="bi bi-envelope-plus-fill"></i> : xyz@gmail.com  &nbsp;&nbsp;&nbsp;&nbsp;|
+        </div>  
+    </footer>
+</main>
+</body>
+</html>
